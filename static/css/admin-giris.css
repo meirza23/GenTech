@@ -1,0 +1,53 @@
+body {
+    background: url('/static/images/frame2.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.welcome-message {
+    font-size: 32px; /* Daha büyük yazı boyutu */
+    font-weight: bold;
+    color: #525bad;
+    margin-bottom: 40px; /* Yukarıdan boşluk arttırıldı */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Butonlar arasındaki boşluğu artırdık */
+}
+
+.button {
+    display: block;
+    padding: 25px 50px; /* Butonların iç boşluğunu artırdık */
+    text-decoration: none;
+    background: linear-gradient(135deg, rgba(255, 105, 180, 0.8), rgba(138, 43, 226, 0.8));
+    color: #fff;
+    border-radius: 10px; /* Buton köşelerini biraz daha yuvarlattık */
+    font-size: 20px; /* Daha büyük yazı boyutu */
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Gölgeleri daha belirgin hale getirdik */
+}
+
+.button:hover {
+    background: linear-gradient(135deg, rgba(255, 105, 180, 0.9), rgba(138, 43, 226, 0.9));
+    transform: scale(1.1); /* Butonları biraz daha büyütüyoruz */
+}
