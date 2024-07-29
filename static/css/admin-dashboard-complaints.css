@@ -35,7 +35,7 @@ header {
 
 /* Logo */
 #logo {
-    max-height: 50px;
+    max-height: 70px;
 }
 
 /* Profil menüsü */
@@ -98,7 +98,7 @@ main {
 /* Tablonun başlık satırı */
 #complaints-table thead,
 #change-category-table thead {
-    background-color: #0077c8; /* Mavi arka plan rengi */
+    background-color: #520d92; /* Mavi arka plan rengi */
     color: white; /* Beyaz yazı rengi */
 }
 
@@ -166,7 +166,7 @@ main {
 /* Değiştir butonu */
 .change-category-button {
     padding: 5px 10px;
-    background-color: #007BFF;
+    background-color: #520d92;
     color: white;
     border: none;
     cursor: pointer;
@@ -175,12 +175,12 @@ main {
 }
 
 .change-category-button:hover {
-    background-color: #0056b3;
+    background-color: #520d92;
 }
 
 /* Footer */
 footer {
-    background-color: #0077c8; /* DenizBank mavi tonu */
+    background-color: #520d92; /* DenizBank mavi tonu */
     color: white;
     text-align: center;
     padding: 5px;

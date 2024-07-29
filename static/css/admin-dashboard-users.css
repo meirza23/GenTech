@@ -35,7 +35,7 @@ header {
 
 /* Logo */
 #logo {
-    max-height: 50px;
+    max-height: 70px;
 }
 
 /* Profil menüsü */
@@ -103,7 +103,7 @@ main {
 
 /* Sütun genişlikleri */
 #users-table th {
-    background-color: #0077c8; /* DenizBank mavi tonu */
+    background-color: #520d92; /* DenizBank mavi tonu */
     color: white;
     font-weight: bold;
 }
@@ -142,7 +142,7 @@ main {
 }
 
 footer {
-    background-color: #0077c8; /* DenizBank mavi tonu */
+    background-color: #520d92; /* DenizBank mavi tonu */
     color: white;
     text-align: center;
     padding: 5px;
@@ -151,4 +151,3 @@ footer {
     bottom: 0; /* Sayfanın altına 0px boşluk */
     left: 0; /* Sayfanın sol kenarına hizala */
 }
-
