@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  line-height: normal;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frame-child {
+  position: absolute;
+  top: 44px;
+  left: 376px;
+  border-radius: 48px;
+  background-color: rgba(217, 217, 217, 0);
+  border: 2px solid #00e0ff;
+  box-sizing: border-box;
+  width: 1037px;
+  height: 69px;
+
+  /* Gradyan kenarlık için */
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(90deg, #0ca2c7, #ba08c0) border-box;
+  border: 2px solid transparent; /* Kenarlığın kalınlığı ve transparan kenarlık */
+}
+.logo-1-icon {
+  position: absolute;
+  top: 860px;
+  left: 1735px;
+  width: 167px;
+  height: 37px;
+  overflow: hidden;
+}
+.intertech-1-icon {
+  position: absolute;
+  top: 855px;
+  left: 25px;
+  width: 158px;
+  height: 35px;
+  object-fit: cover;
+}
+.pattern-icon {
+  position: absolute;
+  top: 0%; /* Start from the top of the container */
+  left: 70%; /* Start from the left of the container */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Fit within the container width */
+  max-height: 100%; /* Fit within the container height */
+  object-fit: contain; /* Scale the image to fit the container */
+  overflow: visible; /* Ensure content is not clipped */
+}
+.vector-icon {
+  position: absolute;
+  top: 46%; /* Start from the top of the container */
+  left: 20%; /* Start from the left of the container */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Fit within the container width */
+  max-height: 100%; /* Fit within the container height */
+  object-fit: contain; /* Scale the image to fit the container */
+  overflow: visible; /* Ensure content is not clipped */
+}
+.ana-sayfa {
+  position: absolute;
+  top: 44px;
+  left: 400px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00d1ff, #0057ff);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  color: transparent; /* Ensures the text is transparent */
+  display: inline-block;
+  width: 217px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.bize-ulan {
+  position: absolute;
+  top: 44px;
+  left: 1151px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #d436ee, #3300ff);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  color: transparent; /* Ensures the text is transparent */
+  display: inline-block;
+  width: 240px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.hakkmzda {
+  position: absolute;
+  top: 44px;
+  left: 755px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #0057ff, #d436ee);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  color: transparent; /* Ensures the text is transparent */
+  display: inline-block;
+  width: 258px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.sizden-gelen-geri {
+  position: absolute;
+  top: 373px;
+  left: 376px;
+  font-size: 36px;
+  font-weight: 800;
+  display: inline-block;
+  width: 1044px;
+  height: 360px;
+}
+.yorumlariniz-ve-kayetlernz {
+  position: absolute;
+  top: 163px;
+  left: 376px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
+  display: inline-block;
+  width: 1097px;
+  height: 146px;
+}
+.bala {
+  position: absolute;
+  top: 9px;
+  left: 137px;
+  font-weight: 800;
+  display: inline-block;
+  width: 126px;
+  height: 51px;
+}
+.bala-wrapper {
+  position: absolute;
+  top: 730px;
+  left: 660px;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  background: #9147ee;
+  width: 400px;
+  height: 75px;
+  overflow: hidden;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+.frame-3-removebg-preview-1-icon {
+  position: absolute;
+  top: 13px;
+  left: 25px;
+  width: 158px;
+  height: 165px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    107.56deg,
+    #c9e9f0,
+    #fff 15.14%,
+    #fff 75%,
+    #d3c1ea
+  );
+  height: 990px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.78);
+  font-family: Sarabun;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}

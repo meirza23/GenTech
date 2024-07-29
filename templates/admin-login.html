@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Girişi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin-giris.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-message">ADMİN SAYFASINA GİRİŞ</div>
+        <div class="box">
+            <a href="{{ url_for('admin_dashboard_users') }}" class="button">Kullanıcılar</a>
+            <a href="{{ url_for('admin_dashboard_complaints') }}" class="button">Şikayetler</a>
+        </div>
+    </div>
+</body>
+</html>
