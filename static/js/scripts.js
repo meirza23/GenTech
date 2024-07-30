@@ -26,11 +26,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Başlangıçta sistem mesajını ekle
+const messageContainer = document.getElementById('message-container');
+if (messageContainer) {
     const initialMessage = document.createElement('div');
     initialMessage.className = 'assistant-message'; // Stil eklemek için sınıf
     initialMessage.innerText = 'Ben GenTech asistanınız. Size yardımcı olmam için mesajınızı benimle paylaşır mısınız?';
 
-    document.getElementById('message-container').appendChild(initialMessage);
+    messageContainer.appendChild(initialMessage);
+} else {
+    console.error('message-container element not found');
+}
+
 
     // Comment form submit handler
     document.getElementById('comment-form')?.addEventListener('submit', function(event) {
@@ -93,4 +99,23 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('comment-form').dispatchEvent(new Event('submit')); // Formu manuel olarak gönder
         }
     });
+
+    // Avatar tıklama ve çıkış yapma işlevselliği
+    document.getElementById('avatar')?.addEventListener('click', function() { // id küçük harfle olmalı
+        var dropdown = document.getElementById('dropdown-menu');
+        dropdown.classList.toggle('show');
+    });
+
+    // Dış tıklama ile dropdown menü kapanması
+    window.onclick = function(event) {
+        if (!event.target.matches('.profile-avatar')) {
+            var dropdowns = document.getElementsByClassName('profile-menu-content');
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
 });

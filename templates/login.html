@@ -40,19 +40,21 @@
               type="email"
               id="email"
               name="email"
+              autocomplete="email"
               required
             />
-          </div>
-          <div class="form-group">
+        </div>
+        <div class="form-group">
             <label class="label" for="password">Şifre:</label>
             <input
               class="input"
               type="password"
               id="password"
               name="password"
+              autocomplete="current-password"
               required
             />
-          </div>
+        </div>
           {% with messages = get_flashed_messages(with_categories=true) %} {% if
           messages %}
           <div class="flash-messages">
