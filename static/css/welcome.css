@@ -18,7 +18,7 @@ body {
 
   /* Gradyan kenarlık için */
   background: linear-gradient(white, white) padding-box,
-              linear-gradient(90deg, #0ca2c7, #ba08c0) border-box;
+    linear-gradient(90deg, #0ca2c7, #ba08c0) border-box;
   border: 2px solid transparent; /* Kenarlığın kalınlığı ve transparan kenarlık */
 }
 .logo-1-icon {
@@ -86,7 +86,7 @@ body {
   -webkit-text-fill-color: transparent; /* For WebKit browsers */
   color: transparent; /* Ensures the text is transparent */
   display: inline-block;
-  width: 240px;
+  width: 260px;
   height: 58px;
   cursor: pointer;
 }
@@ -175,6 +175,33 @@ body {
   font-size: 48px;
   color: rgba(0, 0, 0, 0.78);
   font-family: Sarabun;
+}
+.united-kingdom-icon {
+  position: absolute;
+  top: 204px;
+  left: 111px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.turkey-icon {
+  position: absolute;
+  top: 204px;
+  left: 36px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.langseperator {
+  position: absolute;
+  top: 209px;
+  left: 96px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #00ffff, #ad11f6);
+  width: 6px;
+  height: 40px;
 }
 
 body {

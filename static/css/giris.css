@@ -1,6 +1,5 @@
 body {
-  background: url("/static/images/frame2.png") no-repeat center center
-    fixed;
+  background: url("/static/images/frame2.png") no-repeat center center fixed;
   background-size: 100% 100%;
   font-family: "DIN Pro", sans-serif;
   margin: 0;
@@ -63,7 +62,7 @@ body {
   opacity: 0; /* Başlangıçta görünmez */
   transform: translateY(10px); /* Başlangıçta yukarıda */
   transition: opacity 0.3s ease, transform 0.3s ease; /* Geçiş efektleri */
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .profile-menu-content.show {
@@ -86,7 +85,7 @@ body {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .form-group {
@@ -97,7 +96,7 @@ h2 {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .input {
@@ -106,7 +105,7 @@ h2 {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .button {
@@ -119,7 +118,7 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   box-sizing: border-box;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 .button:hover {
@@ -156,7 +155,6 @@ h2 {
   text-align: center;
 }
 
-
 .flash-messages {
   margin: 10px 0;
 }
@@ -177,4 +175,32 @@ h2 {
   background-color: #d4edda;
   color: #155724;
   border: 1px solid #c3e6cb;
+}
+
+.united-kingdom-icon {
+  position: absolute;
+  top: 204px;
+  left: 111px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.turkey-icon {
+  position: absolute;
+  top: 204px;
+  left: 36px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.langseperator {
+  position: absolute;
+  top: 209px;
+  left: 96px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #00ffff, #ad11f6);
+  width: 6px;
+  height: 40px;
 }

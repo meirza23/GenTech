@@ -10,7 +10,7 @@ app.secret_key = 'supersecretkey'
 def get_db_connection():
     conn_str = (
         r'DRIVER={ODBC Driver 17 for SQL Server};'
-        r'SERVER=MEI\SQLEXPRESS;'
+        r'SERVER=localhost\SQLEXPRESS;'
         r'DATABASE=gentechdb;'
         r'TRUSTED_CONNECTION=yes;'
     )

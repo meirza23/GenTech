@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/aboutUs.css') }}"
-    />
+    <link rel="stylesheet" href="/static/css/aboutUs.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap"
@@ -16,15 +12,12 @@
   <body>
     <div class="logo-1-parent">
       <img class="logo-1-icon" alt="" src="/static/images/logo 1.png" />
-
       <img
         class="intertech-1-icon"
         alt=""
         src="/static/images/intertechIcon.png"
       />
-
       <img class="pattern-icon" alt="" src="/static/images/Pattern.svg" />
-
       <img class="vector-icon" alt="" src="/static/images/Vector.svg" />
 
       <div class="gentech-olarak-vizyonumuz">
@@ -46,7 +39,23 @@
 
       <div class="vizyon">Vizyon</div>
       <div class="misyon">Misyon</div>
+      <img
+        class="united-kingdom-icon"
+        alt=""
+        src="/static/images/united-kingdom.png"
+      />
+      <img class="turkey-icon" alt="" src="/static/images/turkey.png" />
+
+      <div class="langseperator"></div>
     </div>
   </body>
-  <script src="/static/js/script-about-us.js"></script>
+  <script src="/static/js/script-lang-select.js"></script>
+  <script>
+    const buttonMainMenu = document.querySelector(
+      ".frame-3-removebg-preview-1-icon"
+    );
+    buttonMainMenu.addEventListener("click", function () {
+      window.location.href = "welcome";
+    });
+  </script>
 </html>

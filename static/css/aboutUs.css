@@ -7,7 +7,7 @@ body {
 
 .logo-1-icon {
   position: absolute;
-  top: 860px;
+  top: 855px;
   left: 1733px;
   width: 167px;
   height: 37px;
@@ -15,7 +15,7 @@ body {
 }
 .intertech-1-icon {
   position: absolute;
-  top: 855px;
+  top: 844px;
   left: 25px;
   width: 158px;
   height: 35px;
@@ -76,7 +76,6 @@ body {
   width: 391px;
   height: 83px;
 }
-
 .frame-3-removebg-preview-1-icon {
   position: absolute;
   top: 13px;
@@ -113,11 +112,37 @@ body {
   -webkit-text-fill-color: transparent; /* For WebKit browsers */
   color: transparent; /* Ensures the text is transparent */
   display: inline-block;
-  width: 129px;
+  width: 140px;
   height: 49px;
   line-height: 0.8;
 }
-
+.united-kingdom-icon {
+  position: absolute;
+  top: 204px;
+  left: 111px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.turkey-icon {
+  position: absolute;
+  top: 204px;
+  left: 36px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.langseperator {
+  position: absolute;
+  top: 209px;
+  left: 96px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #00ffff, #ad11f6);
+  width: 6px;
+  height: 40px;
+}
 .logo-1-parent {
   width: 100%;
   position: relative;
@@ -128,15 +153,10 @@ body {
     #fff 75%,
     #d3c1ea
   );
-  height: 990px;
+  height: 921px;
   overflow: hidden;
   text-align: left;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.78);
   font-family: Sarabun;
-}
-
-body {
-  margin: 0;
-  line-height: normal;
 }
