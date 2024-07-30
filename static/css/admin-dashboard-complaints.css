@@ -31,11 +31,24 @@ header {
     background-color: #343a40; /* Koyu gri arka plan */
     color: white;
     padding: 15px;
+    height: 80px; /* Fixed height for the header */
+    overflow: visible; /* Ensure no overflow */
 }
 
 /* Logo */
 #logo {
-    max-height: 70px;
+    max-height: 100%; /* Make sure logo height fits within the header */
+    max-width: 50px; /* Constrain the logo width */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Logo */
+#logo {
+    max-height: 70px; /* Increase the maximum height */
+    max-width: 70px; /* Increase the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
 }
 
 /* Profil menüsü */

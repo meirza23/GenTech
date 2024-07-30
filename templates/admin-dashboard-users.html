@@ -12,13 +12,13 @@
 <body>
     <div class="dashboard">
         <header>
-            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" id="logo">
+            <img src="\static\images\GentechBrainIconTransparent.png" alt="Logo" id="logo">
             <h1>Kullanıcılar</h1>
             <div class="profile-avatar-container">
                 <img src="{{ url_for('static', filename='images/admin.png') }}" alt="Avatar" id="avatar" class="profile-avatar">
                 <div id="dropdown-menu" class="profile-menu-content">
                     <a href="/welcome">Ana Sayfa</a>
-                    <a href="/admin-dashboard-complaints">Şikayetler</a>
+                    <a href="{{ url_for('admin_dashboard_complaints') }}">Şikayetler</a>
                     <a href="#" id="logout">Çıkış Yap</a>
                 </div>
             </div>

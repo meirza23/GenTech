@@ -25,16 +25,30 @@ body {
 /* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the content horizontally */
     align-items: center;
-    background-color: #343a40; /* Koyu gri arka plan */
+    background-color: #343a40; /* Dark gray background */
     color: white;
     padding: 15px;
+    height: 80px; /* Fixed height for the header */
+    position: relative; /* Add relative positioning */
 }
 
 /* Logo */
 #logo {
-    max-height: 70px;
+    max-height: 70px; /* Increase the maximum height */
+    max-width: 70px; /* Increase the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position logo absolutely */
+    left: 15px; /* Position logo 15px from the left */
+}
+
+/* Title */
+header h1 {
+    margin: 0;
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the title takes the full width */
 }
 
 /* Ana içerik */
