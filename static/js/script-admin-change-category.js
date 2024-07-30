@@ -67,12 +67,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Kategori dropdownlarını güncelleme işlevi
-    function updateCategoryDropdown() {
-        document.querySelectorAll('.category-dropdown').forEach(dropdown => {
-            dropdown.addEventListener('change', function() {
-                const complaintId = this.getAttribute('data-complaint-id');
-                const newCategory = this.value;
+function updateCategoryDropdown() {
+    document.querySelectorAll('.category-dropdown').forEach(dropdown => {
+        dropdown.addEventListener('change', function() {
+            const complaintId = this.getAttribute('data-complaint-id');
+            const newCategory = this.value;
 
+            const userConfirmed = confirm("Kategoriyi değiştirmek istediğinizden emin misiniz?");
+            if (userConfirmed) {
                 fetch(`/update-category/${complaintId}`, {
                     method: 'POST',
                     headers: {
@@ -84,7 +86,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 .catch(error => {
                     console.error('Hata:', error);
                 });
-            });
+            } else {
+                // Kullanıcı iptal ettiğinde, seçimi eski haline döndür
+                this.value = this.querySelector('option[selected]').value;
+            }
         });
-    }
+    });
+}
 });
