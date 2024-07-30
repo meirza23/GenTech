@@ -8,7 +8,7 @@ with open('comments.json', 'r', encoding='utf-8') as file:
 # MSSQL veritabanına bağlan
 conn = pyodbc.connect(
     r'DRIVER={ODBC Driver 17 for SQL Server};'
-    r'SERVER=localhost\SQLEXPRESS;'
+    r'SERVER=MEI\SQLEXPRESS;'
     r'DATABASE=gentechdb;'
     r'TRUSTED_CONNECTION=yes;'
 )
