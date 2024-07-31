@@ -69,7 +69,7 @@ body {
 
 .frame-child {
   position: absolute;
-  top: 227px;
+  top: 247px;
   left: 987px;
   border-radius: 20px;
   background-color: #d9d9d9;
@@ -93,7 +93,7 @@ body {
 
 .e-posta {
   position: absolute;
-  top: 249px;
+  top: 349px;
   left: 183px;
   font-weight: 800;
   display: inline-block;
@@ -102,7 +102,7 @@ body {
 }
 .adres {
   position: absolute;
-  top: 391px;
+  top: 491px;
   left: 180px;
   font-weight: 800;
   display: inline-block;
@@ -111,7 +111,7 @@ body {
 }
 .telefon {
   position: absolute;
-  top: 526px;
+  top: 626px;
   left: 180px;
   font-weight: 800;
   display: inline-block;
@@ -120,7 +120,7 @@ body {
 }
 .infogentechcomtr {
   position: absolute;
-  top: 256px;
+  top: 356px;
   left: 421px;
   font-size: 32px;
   display: inline-block;
@@ -132,7 +132,7 @@ body {
 }
 .gentech-stanbul-container {
   position: absolute;
-  top: 362px;
+  top: 462px;
   left: 421px;
   font-size: 32px;
   display: inline-block;
@@ -141,7 +141,7 @@ body {
 }
 .a {
   position: absolute;
-  top: 530px;
+  top: 630px;
   left: 421px;
   font-size: 32px;
   text-decoration: underline;
@@ -152,7 +152,7 @@ body {
 }
 .harita-1-icon {
   position: absolute;
-  top: 235px;
+  top: 255px;
   left: 996px;
   border-radius: 10px;
   width: 617px;
@@ -162,7 +162,7 @@ body {
 }
 .map-pin-icon {
   position: absolute;
-  top: 396px;
+  top: 496px;
   left: 112px;
   width: 48px;
   height: 48px;
@@ -170,7 +170,7 @@ body {
 }
 .mail-icon {
   position: absolute;
-  top: 256px;
+  top: 356px;
   left: 112px;
   width: 48px;
   height: 48px;
@@ -178,7 +178,7 @@ body {
 }
 .phone-icon {
   position: absolute;
-  top: 530px;
+  top: 630px;
   left: 112px;
   width: 48px;
   height: 48px;
@@ -200,4 +200,32 @@ body {
   font-size: 40px;
   color: #000;
   font-family: Sarabun;
+}
+
+.united-kingdom-icon {
+  position: absolute;
+  top: 204px;
+  left: 111px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.turkey-icon {
+  position: absolute;
+  top: 204px;
+  left: 36px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.langseperator {
+  position: absolute;
+  top: 209px;
+  left: 96px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #00ffff, #ad11f6);
+  width: 6px;
+  height: 40px;
 }

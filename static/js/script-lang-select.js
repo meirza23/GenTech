@@ -134,6 +134,30 @@ assistant that can classify bank customers' comments into sub and main categorie
         sendButtonAlt: "Gönder",
       },
     },
+    contactUs: {
+      en: {
+        title: "Contact Us",
+        email: "Email",
+        address: "Address",
+        phone: "Phone",
+        emailAddress: "info@gentech.com.tr",
+        officeName: "GenTech – Istanbul Technopark",
+        officeAddress:
+          "Sanayi Mahallesi, Teknopark Boulevard, 1/3 C, Pendik/Istanbul",
+        phoneNumber: "+90 216 664 20 00",
+      },
+      tr: {
+        title: "BİZE ULAŞIN",
+        email: "E-posta",
+        address: "Adres",
+        phone: "Telefon",
+        emailAddress: "info@gentech.com.tr",
+        officeName: "GenTech – İstanbul Teknopark",
+        officeAddress:
+          "Sanayi Mahallesi, Teknopark Bulvarı, 1/3 C, Pendik/İstanbul",
+        phoneNumber: "+90 216 664 20 00",
+      },
+    },
   };
 
   function switchLanguage(language) {
@@ -232,6 +256,23 @@ assistant that can classify bank customers' comments into sub and main categorie
         translations.categorize[language].messagePlaceholder;
       document.querySelector("button[type='submit'] img").alt =
         translations.categorize[language].sendButtonAlt;
+    } else if (currentScreen.includes("contact")) {
+      document.querySelector(".bze-ulain").textContent =
+        translations.contactUs[language].title;
+      document.querySelector(".e-posta").textContent =
+        translations.contactUs[language].email;
+      document.querySelector(".adres").textContent =
+        translations.contactUs[language].address;
+      document.querySelector(".telefon").textContent =
+        translations.contactUs[language].phone;
+      document.querySelector(".infogentechcomtr").textContent =
+        translations.contactUs[language].emailAddress;
+      document.querySelector(".gentech-stanbul-container").innerHTML = `
+        <p class="gentech-stanbul">${translations.contactUs[language].officeName}</p>
+        <p class="gentech-stanbul">${translations.contactUs[language].officeAddress}</p>
+      `;
+      document.querySelector(".a").textContent =
+        translations.contactUs[language].phoneNumber;
     }
     localStorage.setItem("preferredLang", language);
   }
