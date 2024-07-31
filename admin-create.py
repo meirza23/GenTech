@@ -2,7 +2,7 @@ import pyodbc
 from werkzeug.security import generate_password_hash
 
 # Kullanıcı bilgilerini belirleyin
-email = 'mirzaetka23@gmail.com'
+email = 'admin@gmail.com'
 password = 'admin123'
 
 # Parolayı hash'leyin

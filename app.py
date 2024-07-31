@@ -18,10 +18,7 @@ def get_db_connection():
 
 @app.route('/')
 def index():
-    if 'user_id' in session:
-        return redirect(url_for('categorize'))
-    if 'admin' in session:
-        return redirect(url_for('admin_login'))
+
     return redirect(url_for('welcome'))
 
 @app.route('/welcome')

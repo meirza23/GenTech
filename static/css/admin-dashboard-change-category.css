@@ -26,7 +26,7 @@ body {
 header {
     display: flex;
     justify-content: center; /* Center the content horizontally */
-    align-items: center;
+    align-items: center; /* Center the content vertically */
     background-color: #343a40; /* Dark gray background */
     color: white;
     padding: 15px;
@@ -41,6 +41,8 @@ header {
     height: auto; /* Maintain aspect ratio */
     width: auto; /* Maintain aspect ratio */
     position: absolute; /* Position logo absolutely */
+    top: 50%; /* Position logo vertically centered */
+    transform: translateY(-50%); /* Adjust vertical alignment */
     left: 15px; /* Position logo 15px from the left */
 }
 
