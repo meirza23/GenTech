@@ -1,4 +1,5 @@
 Gentech Generative AI Projesi
+
 Bu proje, Python Flask ve MSSQL kullanılarak geliştirilmiştir. SQL Server Management Studio (SSMS) 20 kullanılmaktadır.
 
 Kurulum ve Başlangıç
