@@ -2,8 +2,8 @@ from openai import AzureOpenAI
 import os
 
 # Set the API key and endpoint in environment variables
-os.environ["AZURE_OPENAI_KEY"] = "e966ad11b6d14bc6a6803ab6f3683e21"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://rgacademy6oai.openai.azure.com/"
+os.environ["AZURE_OPENAI_KEY"] = "openai_key"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "endpoint
 
 api_key = os.getenv("AZURE_OPENAI_KEY")
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
