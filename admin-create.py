@@ -1,7 +1,7 @@
 import pyodbc
 from werkzeug.security import generate_password_hash
 
-# Kullanıcı bilgilerini belirleyin
+# Kullanıcı bilgilerini belirleyiniz
 email = 'admin@gmail.com'
 password = 'admin123'
 
@@ -16,7 +16,7 @@ conn = pyodbc.connect(
     r'TRUSTED_CONNECTION=yes;'
 )
 
-# Cursor oluştur
+# Cursor oluşturma
 cursor = conn.cursor()
 
 # Kullanicilar tablosuna admin kullanıcısı ekleyin
